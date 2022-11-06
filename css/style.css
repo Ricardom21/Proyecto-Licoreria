@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ccs index o inicio*/
+body{
+    
+    background-color: rgb(8, 11, 199);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.menu-navegacion {
+height: 120px;
+background-color: black; 
+ width: 100%;
+ padding: 5px;
+}
+
+
+ .menu-navegacion ul li{
+    list-style: none;
+  display: inline-block;
+}
+
+.menu-navegacion a{
+    text-decoration: none;
+    color: rgb(12, 3, 3);
+    font-size: 20px;
+    padding: 15px;
+text-align: center;
+}
+
+.navegacion{
+    margin: 5px;
+    text-align: center;
+    background-color: antiquewhite;
+
+}
+
+/*
+@media screen and (max-width: 550px){
+    .menu-navegacion{
+        display: flex;
+        flex-direction: column;
+    }    
+}
+*/
+
+.logo-image img {
+width: 83px;
+height: 96px;
+margin-top: 7px;
+margin-bottom: 3px;
+}
+
+.carrusel .titulos-principales{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.carrusel .imagen-ofertas{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px yellow;
+    max-width: 100%;
+}
+
+.carrusel-vaso .titulo-oferta{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.carrusel-vaso .imagen-vasos{
+    width: 390px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    border:  solid 1px yellow;
+}
+
+.video .name-oferta{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.video .video-promo{
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*footer*/
+
+.pie-pagina h2{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.pie-pagina ul li{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+}
+
+.pie-pagina .imagen-redes{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    
+}
+
+.pie-pagina{
+    padding-top: 20px;
+    background-color:  black;
+}
+
+.pie-pagina .copy{
+    color: white;
+}
+
+.pie-pagina .re-des{
+    display: flex;
+    justify-content: end;
+}
+/* fin footer*/
+
+/* fin de index*/
+
+/*nosotros*/
+.title-principal{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.history p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    border: solid 2px yellow;
+    padding: 30px;
+}
+/* fin nosotros*/
+
+/*producos*/
+
+.contenedor{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    border: solid 3px;
+    width: 85px;
+    padding: 90px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(15, 12, 11);
+    border-radius: 5px;
+    color: yellow;
+    box-shadow: 3px 3px;
+}
+
+
+
+.card__image{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    }
+ 
+/* cards produtos ventas*/
+
+.contenedor-1{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+.cards{
+    border: solid 3px;
+    width: 222px;
+    height: 261px;
+    padding: 48px 60px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(15, 12, 11);
+    border-radius: 5px;
+    color: yellow;
+    box-shadow: 3px 3px;
+    box-sizing: border-box;
+}
+
+.cards p{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    display: inline;
+}
+
+.card__images{
+    width: 50px;
+    height: 50px;
+    }
+
+/*fin cards productos ventas*/
+/* especificacion de productos*/
+.cards-productos{
+    border: solid 3px;
+    width: 234px;
+    height: 284px;
+    padding: 44px 54px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(15, 12, 11);
+    border-radius: 5px;
+    color: yellow;
+    box-shadow: 3px 3px;
+    box-sizing: border-box;
+}
+
+.cards-productos p{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    display: inline;
+}
+
+.card__images{
+    width: 50px;
+    height: 50px;
+    }
+/*fin productos*/
+
+
+/*accesorios*/
+
+.contenedor-accesorios{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card__images{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    }
+
+.precio{
+    color: white;
+}
+
+.boton{
+    font-size: 15px;
+    color: rgb(3, 3, 1);
+    background-color: rgb(228, 224, 5);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.boton:hover{
+    color: white;
+}
+/* fin accesorios*/
+
+
+/*formulario*/
+.form fieldset{
+    border: solid 1px rgb(227, 238, 241);
+    width: 400px;
+    height: 400px;
+    background-color: #423010;
+    margin: auto;
+    color: rgb(247, 241, 241);
+
+}
+
+.form label,
+input{
+    padding: 10px;
+    font-size: 18px;
+    width: 90%;
+    border-radius: 10px;
+    padding-left: 15px ;
+    color: rgb(252, 243, 243);
+    text-transform: uppercase;
+  }
+
+  .form .boton-form{
+    padding: 10px;
+    width: 95%;
+    color: black;
+    background-color:rgb(245, 241, 12);
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .form .title{
+    text-align: center;
+    padding-top: 35px;
+  }
+/* fin formulario*/
+
+/* paginas de productos*/
+
+.title-principal-1{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    text-transform: uppercase;
+    margin: 20px;
+}
