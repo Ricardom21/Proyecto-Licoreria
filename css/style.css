@@ -11,7 +11,7 @@ a{
 /* ccs index o inicio*/
 body{
     
-    background-color: rgb(165, 165, 175);
+    background-color: rgb(23, 23, 231);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -22,6 +22,7 @@ height: 120px;
 background-color: black; 
  width: 100%;
  padding: 5px;
+ position: fixed;
 }
 
 
