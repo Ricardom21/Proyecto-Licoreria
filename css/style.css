@@ -11,18 +11,16 @@ a{
 /* ccs index o inicio*/
 body{
     
-    background-color: rgb(23, 23, 231);
+    background-color: rgb(23, 23, 184);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .menu-navegacion {
 height: 120px;
 background-color: black; 
  width: 100%;
  padding: 5px;
- position: fixed;
 }
 
 
@@ -33,7 +31,7 @@ background-color: black;
 
 .menu-navegacion a{
     text-decoration: none;
-    color: rgb(12, 3, 3);
+    color: rgb(245, 240, 240);
     font-size: 20px;
     padding: 15px;
 text-align: center;
