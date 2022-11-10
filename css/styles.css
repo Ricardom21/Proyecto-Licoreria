@@ -11,7 +11,7 @@ a{
 /* ccs index o inicio*/
 body{
     
-    background-color: rgb(23, 23, 184);
+    background-color: rgb(33, 33, 182);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -21,6 +21,9 @@ height: 120px;
 background-color: black; 
  width: 100%;
  padding: 5px;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
 }
 
 
@@ -35,6 +38,8 @@ background-color: black;
     font-size: 20px;
     padding: 15px;
 text-align: center;
+
+
 }
 
 .navegacion{
@@ -61,6 +66,7 @@ margin-bottom: 3px;
 }
 
 .carrusel .titulos-principales{
+    margin-top: 10px;
     color: white;
     text-align: center;
     padding: 40px;
