@@ -10,45 +10,52 @@ a{
 
 /* ccs index o inicio*/
 body{
-    
-    background-color: rgb(33, 33, 182);
+    background-color: rgb(73, 73, 77);
     background-size: cover;
     background-repeat: no-repeat;
 }
+ header{
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+ }
 
-.menu-navegacion {
-height: 120px;
-background-color: black; 
- width: 100%;
- padding: 5px;
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
+.image-logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
-
- .menu-navegacion ul li{
-    list-style: none;
-  display: inline-block;
-}
-
-.menu-navegacion a{
+.navegacion ul{
     text-decoration: none;
-    color: rgb(245, 240, 240);
-    font-size: 20px;
-    padding: 15px;
-text-align: center;
-
-
-}
-
-.navegacion{
-    margin: 5px;
+    list-style: none;
+    display: flex;
     text-align: center;
-    background-color: antiquewhite;
-
 }
 
+.navegacion ul li{
+    text-decoration: none;
+    margin-left: 10px;
+    color: beige;
+    padding: 5px;
+    
+}
+.navegacion ul li a {
+    text-decoration: none;
+}
+.navegacion{
+    display: flex;
+    justify-content: center;
+   background-color: beige;
+}
+
+@media screen and (max-width: 450px) { 
+    .navegacion ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+}
 /*
 @media screen and (max-width: 550px){
     .menu-navegacion{
@@ -58,18 +65,18 @@ text-align: center;
 }
 */
 
-.logo-image img {
-width: 83px;
-height: 96px;
-margin-top: 7px;
-margin-bottom: 3px;
-}
 
-.carrusel .titulos-principales{
-    margin-top: 10px;
+.titulos-principales{
+    margin-top: 30px;
     color: white;
     text-align: center;
     padding: 40px;
+}
+
+.carrusel{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
 }
 
 .carrusel .imagen-ofertas{
