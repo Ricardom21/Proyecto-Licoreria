@@ -10,13 +10,13 @@ a{
 
 /* ccs index o inicio*/
 body{
-    background-color: rgb(73, 73, 77);
+    background-color: rgb(4, 4, 7);
     background-size: cover;
     background-repeat: no-repeat;
 }
  header{
     width: 100%;
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(250, 249, 249);
  }
 
 .image-logo{
@@ -213,6 +213,7 @@ body{
     height: 261px;
     padding: 48px 60px;
     margin: 20px;
+    margin-bottom: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
