@@ -8,146 +8,160 @@ a{
     text-decoration: none;
 }
 
-/* ccs index o inicio*/
-body{
-    background-color: rgb(4, 4, 7);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
- header{
+/* TODO MI INDEX*/
+.grid-container{
     width: 100%;
-    background-color: rgb(250, 249, 249);
- }
-
-.image-logo{
-    width: 100px;
-    height: 100px;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin: 0;
+    color: rgb(45, 228, 8);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 250px 100px auto 120px;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer"
+    ;
 }
 
-.navegacion ul{
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    text-align: center;
-}
-
-.navegacion ul li{
-    text-decoration: none;
-    margin-left: 10px;
-    color: beige;
-    padding: 5px;
-    
-}
-.navegacion ul li a {
-    text-decoration: none;
-}
-.navegacion{
-    display: flex;
-    justify-content: center;
-   background-color: beige;
-}
-
-@media screen and (max-width: 450px) { 
-    .navegacion ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+@media screen and (max-width: 1069px) {
+    .grid-container{
+        width: 100%;
+        margin: 0;
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 250px 200px auto 120px;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
     }
 }
-/*
-@media screen and (max-width: 550px){
-    .menu-navegacion{
-        display: flex;
-        flex-direction: column;
-    }    
+.menu ul{
+    display: flex;
+    flex-direction: row;
 }
-*/
 
+@media screen and (max-width: 548px) {
+    .grid-container{
+        width: 100%;
+        margin: 0;
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 250px 100px auto 120px;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+    }
+    
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    height: 200px;
+    padding: 10px;
+}
+
+}
+body{
+width: 100%;
+height: 100%;
+background-image: url(../img/fondoimportante.webp);
+}
+
+.encabezado{
+    grid-area: header;
+}
+
+.image-logo{
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    background-color: blue;
+    grid-area: nav;
+    height: 100px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
 
 .titulos-principales{
-    margin-top: 30px;
-    color: white;
-    text-align: center;
-    padding: 40px;
+    margin-top: 40px;
 }
 
-.carrusel{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
-}
-
-.carrusel .imagen-ofertas{
-    width: 400px;
-    height: 200px;
-    padding: 20px;
-    border-radius: 10px;
-    border: solid 1px yellow;
-    max-width: 100%;
-}
 
 .titulo-oferta{
-    color: white;
+    margin-top: 40px;
+}
+
+.name-oferta{
+    margin-top: 40px;
+}
+/* me modifica las secciones*/
+.contenido{
+    grid-area: main;
     text-align: center;
-    padding: 40px;
+    color: black;
 }
 
-.carrusel-vaso .imagen-vasos{
-    width: 390px;
-    height: 250px;
-    padding: 20px;
-    border-radius: 10px;
-    border:  solid 1px yellow;
+.video{
+    margin-bottom: 40px;
 }
-
-.video .name-oferta{
-    color: white;
-    text-align: center;
-    padding: 40px;
-}
-
-.video .video-promo{
+.pie{
+    background-color: rgb(8, 8, 8);
+    grid-area: footer;
   text-align: center;
-  margin-bottom: 20px;
+  color: blanchedalmond;
 }
-/*footer*/
 
-.pie-pagina h2{
-    color: white;
+.re-des{
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.imagen-redes{
+width: 35px;
+height: 35px;
+}
+
+.copy{
     text-align: center;
-    padding: 40px;
-}
-
-.pie-pagina ul li{
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-end;
-}
-
-.pie-pagina .imagen-redes{
-    width: 50px;
-    height: 50px;
-    padding: 10px;
+    margin-top: 14px;
     
 }
 
-.pie-pagina{
-    padding-top: 20px;
-    background-color:  black;
+/* ID DE LOS CARRUSEL */
+#carouselExampleIndicators{
+    width: 60%;
+    margin: 0 auto;
+    border: solid 5px;
 }
 
-.pie-pagina .copy{
-    color: white;
+#carouselExampleControls{
+    width: 60%;
+    margin: 0 auto;
+    border: solid 5px;
 }
-
-.pie-pagina .re-des{
-    display: flex;
-    justify-content: end;
-}
-/* fin footer*/
-
 /* fin de index*/
 
 /*nosotros*/
@@ -170,6 +184,10 @@ body{
 /* fin nosotros*/
 
 /*producos*/
+
+.title-principal{
+    color: black;
+}
 
 .contenedor{
     display: grid;
@@ -207,30 +225,6 @@ body{
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
 }
-.cards{
-    border: solid 3px;
-    width: 222px;
-    height: 261px;
-    padding: 48px 60px;
-    margin: 20px;
-    margin-bottom: 35px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(15, 12, 11);
-    border-radius: 5px;
-    color: yellow;
-    box-shadow: 3px 3px;
-    box-sizing: border-box;
-}
-
-.cards p{
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-    display: inline;
-}
 
 .card__images{
     width: 50px;
@@ -267,6 +261,38 @@ body{
     width: 50px;
     height: 50px;
     }
+
+    .cards-productos2{
+        border: solid 3px;
+        width: 268px;
+        height: 330px;
+        padding: 53px 28px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(15, 12, 11);
+        border-radius: 5px;
+        color: yellow;
+        box-shadow: 3px 3px;
+        box-sizing: border-box;
+    }
+
+.card-accesorios{   
+border: solid 3px;
+width: 268px;
+height: 330px;
+padding: 53px 28px;
+margin: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(15, 12, 11);
+border-radius: 5px;
+color: yellow;
+box-shadow: 3px 3px;
+box-sizing: border-box;
+}
 /*fin productos*/
 
 
@@ -307,13 +333,19 @@ body{
 .form fieldset{
     border: solid 1px rgb(227, 238, 241);
     width: 400px;
-    height: 400px;
+    height: 531px;
     background-color: #423010;
     margin: auto;
     color: rgb(247, 241, 241);
 
 }
+.formulario{
+    margin-bottom: 100px;
+}
 
+.form label{
+    margin-bottom: 10px;
+}
 .form label,
 input{
     padding: 10px;
@@ -343,9 +375,11 @@ input{
 /* paginas de productos*/
 
 .title-principal-1{
-    color: white;
+    color: rgb(224, 19, 19);
     text-align: center;
     padding: 40px;
     text-transform: uppercase;
     margin: 20px;
 }
+
+

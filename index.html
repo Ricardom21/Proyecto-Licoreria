@@ -4,37 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="icon" href="img/licor-de-limon-italiano.png">
     <link rel="stylesheet" href="css/styles.css">
     <title>Licoreria EL Palmar</title>
 </head>
 <body>
-    <header class="menu-navegacion">
-        
-            <a href="index.html"><img src="img/logo.png" alt="logo licoreria" class="image-logo"></a>
-        <nav class="navegacion">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/Nosotros.html">Nosotros</a></li>
-                <li><a href="pages/Productos.html">Productos</a></li>
-                <li><a href="pages/Contacto.html">Contacto</a></li>
-                <li><a href="pages/Accesorios.html">Accesorios</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1 class="titulos-principales">APROVECHA NUESTRAS OFERTAS EN BEBIDAS</h1>
-        <section class="carrusel">
-                <img src="img/oferta 1.jpg" alt="descuento en ron" class="imagen-ofertas">
-                <img src="img/oferta 2.jpg" alt="desceunto en tequila" class="imagen-ofertas">
-                <img src="img/oferta 3.jpg" alt="descuento en cervezas" class="imagen-ofertas">
-        </section>
-            <h2 class="titulo-oferta"> LLEVATE EL DE TU PREFERENCIA</h2>
-        <section class="carrusel-vaso">
-                <img src="img/vaso 1.jpg" alt="vaso contigo gris con goma" class="imagen-vasos">
-                <img src="img/vaso 2.jpg" alt="vaso contigo liso" class="imagen-vasos">
-                <img src="img/vaso 3.jpg" alt="vaso contigo dama" class="imagen-vasos">
-        </section>
+    <div class="grid-container">
+        <header class="encabezado">
+                <a href="index.html"><img src="img/logoprincipal.jpg" alt="logo licoreria" class="image-logo"></a>
+        <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pages/Nosotros.html">Nosotros</a></li>
+                    <li><a href="pages/Productos.html">Productos</a></li>
+                    <li><a href="pages/Contacto.html">Contacto</a></li>
+                    <li><a href="pages/Accesorios.html">Accesorios</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="contenido">
+            <h1 class="titulos-principales">APROVECHA NUESTRAS OFERTAS EN BEBIDAS</h1>
+            <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/combo1.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/combo 2.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/combo 3.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/combo 4.webp" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
+            <div>
+                <h2 class="titulo-oferta"> LLEVATE EL DE TU PREFERENCIA</h2>
+            </div>
+            <section>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/logoconti.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/vasoscontigo2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/vasconti2.webp" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
         <section class="video">
                 <h2 class="name-oferta"> DISFRUTA AL MAXIMO TU CERVEZA</h2>
             <div class="video-promo">
@@ -42,7 +90,7 @@
             </div>
         </section>
     </main>
-    <footer class="pie-pagina">
+    <footer class="pie">
         <h2>SIGUENOS EN NUESTRAS REDES SOCIALES</h2>
         <ul class="re-des">
             <li><a href="https://www.facebook.com/"><img src="img/facebook.png" alt="facebook" class="imagen-redes"></a></li>
@@ -54,5 +102,8 @@
         Copyright© 2012-2022 Licoreria El Palmar. Todos los derechos reservados.
     </p>
     </footer>
+</div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
    </body>
 </html>

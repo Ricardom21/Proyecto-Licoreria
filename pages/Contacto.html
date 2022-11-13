@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="icon" href="../img/licor-de-limon-italiano.png">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Licoreria EL Palmar</title>
 </head>
 <body>
-    <header class="menu-navegacion">
-         <div class="logo-image">
-                <a href="../index.html"><img src="../img/logo.png" alt="logo licoreria" class="image-logo"></a>
-                    </div>
-        <nav class="navegacion">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="Nosotros.html">Nosotros</a></li>
-                <li><a href="Productos.html">Productos</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
-                <li><a href="Accesorios.html">Accesorios</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <div class="grid-container">
+        <header class="encabezado">
+                <a href="index.html"><img src="../img/logoprincipal.jpg" alt="logo licoreria" class="image-logo"></a>
+        <nav class="menu">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Accesorios.html">Accesorios</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main class="contenido">
         <section  class="title-principal">
             <h1>Si eres mayor de 18 años dejanos tus datos y te enviaremos informacion sobre nuestros productos</h1>
         </section>
-        
+        <div class="formulario">
         <form action="">
         <section class="form">
             <fieldset>
@@ -56,8 +57,9 @@
             </fieldset>
         </section>
     </form>
+</div>
     </main>
-    <footer class="pie-pagina">
+    <footer class="pie">
         <h2>SIGUENOS EN NUESTRAS REDES SOCIALES</h2>
         <ul class="re-des">
             <li><a href="https://www.facebook.com/"><img src="../img/facebook.png" alt="facebook" class="imagen-redes"></a></li>
@@ -69,5 +71,8 @@
         Copyright© 2012-2022 Licoreria El Palmar. Todos los derechos reservados.
     </p>
     </footer>
+    </div>
+     <!-- JavaScript Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
