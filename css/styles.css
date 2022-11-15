@@ -121,7 +121,9 @@ background-image: url(../img/fondoimportante.webp);
 
 @media screen and (max-width:579px) {
     .video iframe{
-        padding: 50px;
+        padding: 0px;
+        width: 285px;
+        height: 213px;
     }
 }
 
