@@ -109,12 +109,22 @@ background-image: url(../img/fondoimportante.webp);
 .contenido{
     grid-area: main;
     text-align: center;
-    color: black;
 }
 
-.video{
+.contenido .titulos-principales{
+   color: black;
+}
+
+.video iframe{
     margin-bottom: 40px;
 }
+
+@media screen and (max-width:597px) {
+    .video iframe{
+        padding: px;
+    }
+}
+
 .pie{
     background-color: rgb(8, 8, 8);
     grid-area: footer;
