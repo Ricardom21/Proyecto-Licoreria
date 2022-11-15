@@ -321,7 +321,7 @@ flex-direction: column;
 align-items: center;
 background-color: rgb(15, 12, 11);
 border-radius: 5px;
-color: yellow;
+color: rgb(0, 68, 255);
 box-shadow: 3px 3px;
 box-sizing: border-box;
 }
@@ -330,11 +330,40 @@ box-sizing: border-box;
 
 /*accesorios*/
 
+
+
 .contenedor-accesorios{
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
+    place-items: center;
 }
+
+@media screen and (max-width: 930px) {
+    .contenedor-accesorios{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 628px) {
+    .contenedor-accesorios{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .contenedor-accesorios{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
 
 .card__images{
     width: 100px;
