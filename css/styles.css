@@ -63,7 +63,7 @@ background-image: url(../img/fondoimportante.webp);
 .menu ul{
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 80px;
 }
