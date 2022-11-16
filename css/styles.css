@@ -234,11 +234,13 @@ height: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(15, 12, 11);
+    background-color: gray;
     border-radius: 5px;
-    color: yellow;
-    box-shadow: 3px 3px;
+    color:rgb(5, 5, 5);
+    box-shadow: 3px 3px 3px 3px;
 }
+
+
 
 
 
@@ -280,24 +282,9 @@ height: 35px;
 
 /*fin cards productos ventas*/
 /* especificacion de productos*/
-.cards-productos{
-    border: solid 3px;
-    width: 234px;
-    height: 284px;
-    padding: 44px 54px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(15, 12, 11);
-    border-radius: 5px;
-    color: yellow;
-    box-shadow: 3px 3px;
-    box-sizing: border-box;
-}
 
-.cards-productos p{
-    color: white;
+.cards-productos2 p{
+    color: rgb(5, 5, 5);
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
@@ -311,33 +298,43 @@ height: 35px;
 
     .cards-productos2{
         border: solid 3px;
-        width: 268px;
-        height: 330px;
-        padding: 53px 28px;
+        width: 235px;
+        height: 318px;
+        padding: 15px 6px;
         margin: 20px;
+        margin-bottom: 70px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(15, 12, 11);
+        background-color: gray;
         border-radius: 5px;
-        color: yellow;
-        box-shadow: 3px 3px;
+        color: rgb(5, 5, 5);
+        box-shadow: 3px 3px 3px 3px;
         box-sizing: border-box;
+    }
+
+    .cards-productos2 p{
+        color: rgb(245, 239, 239);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        display: inline;
     }
 
 .card-accesorios{   
 border: solid 3px;
-width: 268px;
+width: 234px;
 height: 330px;
-padding: 53px 28px;
+padding: 23px 7px;
 margin: 20px;
+margin-bottom: 70px;
 display: flex;
 flex-direction: column;
 align-items: center;
-background-color: rgb(15, 12, 11);
+background-color: gray;
 border-radius: 5px;
-color: rgb(0, 68, 255);
-box-shadow: 3px 3px;
+color: rgb(5, 5, 5);
+box-shadow: 3px 3px 3px 3px;
 box-sizing: border-box;
 }
 /*fin productos*/
@@ -456,7 +453,7 @@ input{
 /* paginas de productos*/
 
 .title-principal-1{
-    color: rgb(224, 19, 19);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 40px;
     text-transform: uppercase;
