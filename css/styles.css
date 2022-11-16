@@ -23,6 +23,19 @@ a{
     ;
 }
 
+@media screen and (max-width: 589px) {
+    .grid-container{
+        grid-template-rows: 150px 100px auto 120px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .grid-container{
+        grid-template-rows: 100px 100px auto 120px;
+    }
+    
+}
 
 body{
 width: 100%;
