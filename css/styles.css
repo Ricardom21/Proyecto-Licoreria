@@ -9,6 +9,7 @@ a{
 }
 
 /* TODO MI INDEX*/
+/* PARTE DEL HEADER Y NAV*/
 .grid-container{
     width: 100%;
     margin: 0;
@@ -40,7 +41,8 @@ a{
 body{
 width: 100%;
 height: 100%;
-background-image: url(../img/fondoimportante.webp);
+background-image: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)),
+url(../img/fondoimportante.webp);
 }
 
 .encabezado{
@@ -62,7 +64,7 @@ background-image: url(../img/fondoimportante.webp);
 
 
 .menu{
-    background-color:gray;
+    background-color:#616161;
     grid-area: nav;
     height: 80px;
 }
@@ -79,6 +81,7 @@ background-image: url(../img/fondoimportante.webp);
     justify-content: space-evenly;
     align-items: center;
     height: 80px;
+    border: solid 2px black;
 }
 
 @media screen and (max-width: 587px){
@@ -92,9 +95,12 @@ background-image: url(../img/fondoimportante.webp);
 
 .menu ul li a{
     text-decoration: none;
-    color: rgb(7, 6, 6);
+    color:#000000;
+    font-weight: bold;
 }
+/* FIN DEL HEADER Y MENU*/
 
+/*INICIO DEL MAIN*/
 .titulos-principales{
     margin-top: 30px;
 }
@@ -116,9 +122,6 @@ background-image: url(../img/fondoimportante.webp);
     margin-top: 40px;
 }
 
-.name-oferta{
-    margin-top: 40px;
-}
 /* me modifica las secciones*/
 .contenido{
     grid-area: main;
@@ -126,7 +129,11 @@ background-image: url(../img/fondoimportante.webp);
 }
 
 .contenido .titulos-principales{
-   color: black;
+   color: rgb(255, 255, 255);
+}
+
+.contenido .titulo-oferta{
+    color: aliceblue;
 }
 
 .video iframe{
@@ -141,6 +148,10 @@ background-image: url(../img/fondoimportante.webp);
     }
 }
 
+.video .name-oferta{
+    color:white;
+}
+/*COMIENZA EL FOOTER*/
 .pie{
     background-color: rgb(8, 8, 8);
     grid-area: footer;
@@ -179,21 +190,24 @@ height: 35px;
         flex-direction: column;
     }
 }
+
+/*TERMINA EL FOOTER*/
+
 /* ID DE LOS CARRUSEL */
 #carouselExampleIndicators{
     width: 60%;
     margin: 0 auto;
-    border: solid 5px;
+    border: solid 5px white;
 }
 
 #carouselExampleControls{
     width: 60%;
     margin: 0 auto;
-    border: solid 5px;
+    border: solid 5px white;
 }
-/* fin de index*/
+/* FIN DE INDEX*/
 
-/*nosotros*/
+/*NOSOTROS*/
 .title-principal{
     color: white;
     text-align: center;
@@ -211,12 +225,12 @@ height: 35px;
     border: solid 2px rgb(7, 7, 7);
     padding: 30px;
 }
-/* fin nosotros*/
+/* FIN NOSOTROS*/
 
-/*producos*/
+/*PRODUCTOS*/
 
 .title-principal{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .contenedor{
@@ -234,15 +248,15 @@ height: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: gray;
+    background-color: #9E9E9E;
     border-radius: 5px;
     color:rgb(5, 5, 5);
     box-shadow: 3px 3px 3px 3px;
 }
 
-
-
-
+.card:hover{
+    background-color: #616161;
+}
 
 .card__image{
     width: 100px;
@@ -250,7 +264,7 @@ height: 35px;
     display: flex;
     }
  
-/* cards produtos ventas*/
+/* CARDS PRODUCTOS VENTAS*/
 
 .contenedor-1{
     display: grid;
@@ -280,8 +294,15 @@ height: 35px;
     height: 50px;
     }
 
-/*fin cards productos ventas*/
-/* especificacion de productos*/
+/*FIN CARDS PRODUCTOS VENTAS*/
+/* ESPECIFICACIONES DE PRODUCTOS*/
+.title-principal-1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px;
+    text-transform: uppercase;
+    margin: 20px;
+}
 
 .cards-productos2 p{
     color: rgb(5, 5, 5);
@@ -337,13 +358,10 @@ color: rgb(5, 5, 5);
 box-shadow: 3px 3px 3px 3px;
 box-sizing: border-box;
 }
-/*fin productos*/
+/*FIN DE ESPECIFICACIONES DE PRODUCTOS*/
 
 
-/*accesorios*/
-
-
-
+/*ACCESORIOS*/
 .contenedor-accesorios{
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -389,20 +407,21 @@ box-sizing: border-box;
 
 .boton{
     font-size: 15px;
-    color: rgb(3, 3, 1);
-    background-color: rgb(228, 224, 5);
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
     padding: 5px;
     border-radius: 5px;
     text-align: center;
 }
 
 .boton:hover{
-    color: white;
+    background-color: rgb(2, 2, 2);
+    color: rgb(255, 251, 251);
 }
-/* fin accesorios*/
+/* FIN ACCESORIOS*/
 
 
-/*formulario*/
+/*FORMULARIO*/
 .form fieldset{
     border: solid 2px rgb(7, 7, 7);
     width: 400px;
@@ -448,16 +467,8 @@ input{
     text-align: center;
     padding-top: 35px;
   }
-/* fin formulario*/
+/* FIN FORMULARIO*/
 
-/* paginas de productos*/
 
-.title-principal-1{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 40px;
-    text-transform: uppercase;
-    margin: 20px;
-}
 
 
