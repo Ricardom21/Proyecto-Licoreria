@@ -90,6 +90,7 @@ url(../img/fondoimportante.webp);
         flex-direction: row;
        justify-content: space-evenly;
        padding-left: 5px;
+       height: 85px;
     }
 }
 
@@ -97,6 +98,7 @@ url(../img/fondoimportante.webp);
     text-decoration: none;
     color:#000000;
     font-weight: bold;
+    padding: 10px;
 }
 /* FIN DEL HEADER Y MENU*/
 
@@ -416,7 +418,7 @@ box-sizing: border-box;
 
 .boton:hover{
     background-color: rgb(2, 2, 2);
-    color: rgb(255, 251, 251);
+    color: rgb(5, 5, 5);
 }
 /* FIN ACCESORIOS*/
 
