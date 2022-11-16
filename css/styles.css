@@ -64,7 +64,7 @@ url(../img/fondoimportante.webp);
 
 
 .menu{
-    background-color:#616161;
+    background-color:#050505;
     grid-area: nav;
     height: 80px;
 }
@@ -105,9 +105,13 @@ url(../img/fondoimportante.webp);
 }
 .menu ul li a{
     text-decoration: none;
-    color:#000000;
+    color:#ffffff;
     font-weight: bold;
    
+}
+
+.menu ul li a:hover{
+    color: #616161;
 }
 /* FIN DEL HEADER Y MENU*/
 
@@ -163,7 +167,7 @@ url(../img/fondoimportante.webp);
     color:white;
 }
 /*COMIENZA EL FOOTER*/
-.pie{
+#pie{
     background-color: rgb(8, 8, 8);
     grid-area: footer;
   text-align: center;
@@ -172,7 +176,7 @@ url(../img/fondoimportante.webp);
   height: 122px;
 }
 @media screen and (max-width: 536px) {
-    .pie{
+    #pie{
       height: 200px;
     }
 }
