@@ -73,7 +73,7 @@ background-image: url(../img/fondoimportante.webp);
         display: flex;
         flex-direction: row;
        justify-content: space-evenly;
-       padding-left: 10px;
+       padding-left: 5px;
     }
 }
 
