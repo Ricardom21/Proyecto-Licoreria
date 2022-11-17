@@ -166,6 +166,17 @@ url(../img/fondoimportante.webp);
 .video .name-oferta{
     color:white;
 }
+
+.wsp1-img{
+    width: 50px;
+    height: 50px;
+}
+
+.wsp{
+    display: flex;
+    flex-direction: row;
+justify-content: flex-end;
+}   
 /*COMIENZA EL FOOTER*/
 #pie{
     background-color: rgb(8, 8, 8);
