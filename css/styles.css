@@ -247,6 +247,18 @@ height: 35px;
     height: 310px;
 }
 
+
+.map iframe{
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:620px) {
+    .map iframe{
+        padding: 0px;
+        width: 285px;
+        height: 213px;
+    }
+}
 .map h2{
     color: white;
 }
