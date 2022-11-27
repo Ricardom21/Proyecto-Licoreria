@@ -16,46 +16,8 @@ body{
     url("../img/fondoimportante.webp");
     }
 /* PARTE DEL HEADER Y NAV*/
-.grid-container{
-    width: 100%;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 250px 300px auto 120px;
-    grid-template-areas:
-    "header header header"
-    "nav nav nav"
-    "main main main"
-    "footer footer footer"
-    ;
-}
-
-@media screen and (max-width: 1109px) {
-    .grid-container{
-        grid-template-rows: 150px 200px auto 120px;
-    }
-    
-}
-
-@media screen and (max-width: 993px) {
-    .grid-container{
-        grid-template-rows: 150px 330px auto 120px;
-    }
-    
-}
 
 
-@media screen and (max-width: 450px) {
-    .grid-container{
-        grid-template-rows: 100px 300px auto 120px;
-    }
-    
-}
-
-
-.encabezado{
-    grid-area: header;
-}
 @media screen and (max-width: 587px){
     .encabezado{
         width: 100%;
@@ -97,7 +59,6 @@ body{
 
 /* me modifica las secciones*/
 .contenido{
-    grid-area: main;
     text-align: center;
 }
 
@@ -138,7 +99,6 @@ justify-content: flex-end;
 /*COMIENZA EL FOOTER*/
 .footer{
     background-color: rgb(8, 8, 8);
-    grid-area: footer;
   text-align: center;
   color: blanchedalmond;
   margin:0;
