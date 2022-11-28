@@ -1,21 +1,20 @@
 /*FORMULARIO*/
-.form fieldset{
-    border: solid 2px rgb(7, 7, 7);
-    width: 400px;
-    height: 531px;
-    background-color: grey;
-    margin: auto;
-    color: rgb(247, 241, 241);
-
-}
-.formulario{
+.contenido{
+  .formulario{
     margin-bottom: 100px;
 }
-
-.form label{
+.form fieldset{
+  border: solid 2px rgb(7, 7, 7);
+  width: 400px;
+  height: 531px;
+  background-color: grey;
+  margin: auto;
+  color: rgb(247, 241, 241);
+  label{
     margin-bottom: 10px;
 }
-.form label,
+
+label,
 input{
     padding: 10px;
     font-size: 18px;
@@ -26,7 +25,7 @@ input{
     text-transform: uppercase;
   }
 
-  .form .boton-form{
+  .boton-form{
     padding: 10px;
     width: 95%;
     color: black;
@@ -34,14 +33,12 @@ input{
     margin-top: 20px;
     cursor: pointer;
   }
+}
+}
 
   .form .boton-form:hover{
     background-color: black;
     color: bisque;
   }
 
-  .form .title{
-    text-align: center;
-    padding-top: 35px;
-  }
 /* FIN FORMULARIO*/
