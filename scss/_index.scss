@@ -1,31 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 /* TODO MI INDEX*/
-body{
+body {
     width: 100%;
     height: 100%;
     background-image: $bg-image;
-    }
+}
+
 /* PARTE DEL HEADER Y NAV*/
 
-.encabezado{
-    .image-logo{
+.encabezado {
+    .image-logo {
         width: 100%;
         height: 100%;
     }
 }
 
 
-@media screen and (max-width: 587px){
-    .encabezado{
+@media screen and (max-width: 587px) {
+    .encabezado {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -33,53 +34,57 @@ body{
     }
 }
 
-
+.bg-dark{
+    background-color: black!important;
+}
+.nav-link{
+    color: white!important;
+}
 /* FIN DEL HEADER Y MENU*/
 
 /*INICIO DEL MAIN*/
 
-@media screen and (max-width: 587px){
-    .titulos-principales{
+@media screen and (max-width: 587px) {
+    .titulos-principales {
         margin-top: 5px;
     }
 }
 
-@media screen and (max-width: 380px){
-    .titulos-principales{
+@media screen and (max-width: 380px) {
+    .titulos-principales {
         margin-top: 10px;
     }
 }
 
 /*  Secciones*/
-.contenido{
+.contenido {
     text-align: center;
 
-    .titulos-principales{
+    .titulos-principales {
         margin-top: 30px;
         color: rgb(255, 255, 255);
     }
 
-    .titulo-oferta{
+    .titulo-oferta {
         margin-top: 40px;
-        color: aliceblue;
+        color: rgb(255, 255, 255);
     }
 
-    .video iframe{
+    .video iframe {
         margin-bottom: 40px;
-        .name-oferta{
-            color:white;
-        }
+
     }
 
+  
     /* ID DE LOS CARRUSEL */
 
-    #carouselExampleIndicators{
+    #carouselExampleIndicators {
         width: 60%;
         margin: 0 auto;
         border: solid 5px white;
     }
-    
-    #carouselExampleControls{
+
+    #carouselExampleControls {
         width: 60%;
         margin: 0 auto;
         border: solid 5px white;
@@ -87,7 +92,7 @@ body{
 }
 
 @media screen and (max-width:579px) {
-    .video iframe{
+    .video iframe {
         padding: 0px;
         width: 285px;
         height: 213px;
@@ -96,50 +101,52 @@ body{
 
 
 /* WHATSAPP*/
-.wsp{
+.wsp {
     display: flex;
     flex-direction: row;
-justify-content: flex-end;
+    justify-content: flex-end;
 
-.wsp1-img{
-    width: 50px;
-    height: 50px;
+    .wsp1-img {
+        width: 50px;
+        height: 50px;
+    }
+
 }
 
-}   
 /*COMIENZA EL FOOTER*/
-.footer{
+.footer {
     background-color: rgb(8, 8, 8);
-  text-align: center;
-  color: blanchedalmond;
-  margin:0;
-  height: 122px;
+    text-align: center;
+    color: blanchedalmond;
+    margin: 0;
+    height: 122px;
 
-.re-des{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    .re-des {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
 
-.imagen-redes{
-        width: 35px;
-        height: 35px;
+        .imagen-redes {
+            width: 35px;
+            height: 35px;
         }
     }
 
-    .copy{
+    .copy {
         text-align: center;
         margin-top: 14px;
     }
 }
+
 @media screen and (max-width: 536px) {
-    .footer{
-      height: 200px;
+    .footer {
+        height: 200px;
     }
 }
 
 @media screen and (max-width: 536px) {
-    .copy{
+    .copy {
         overflow: visible;
         white-space: initial;
         display: flex;
@@ -150,4 +157,3 @@ justify-content: flex-end;
 /*TERMINA EL FOOTER*/
 
 /* FIN DE INDEX*/
-

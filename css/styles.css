@@ -28,6 +28,14 @@ body {
     flex-direction: column;
   }
 }
+.bg-dark {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
 /* FIN DEL HEADER Y MENU*/
 /*INICIO DEL MAIN*/
 @media screen and (max-width: 587px) {
@@ -51,13 +59,10 @@ body {
 }
 .contenido .titulo-oferta {
   margin-top: 40px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
 }
 .contenido .video iframe {
   margin-bottom: 40px;
-}
-.contenido .video iframe .name-oferta {
-  color: white;
 }
 .contenido #carouselExampleIndicators {
   width: 60%;
