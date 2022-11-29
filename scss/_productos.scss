@@ -1,21 +1,24 @@
 .contenido{
     .title-principal{
         color: rgb(255, 255, 255);
+        margin-top: 20px;
     }
-    .contenedor-1{
+    .contenedor-2{
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(3, 1fr);
+        place-items: center;
     }
     .card{
         border: solid 3px;
-        width: 85px;
-        padding: 90px;
+        width: 222px;
+        height: 299px;
+        padding: 64px 6px;
         margin: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #9E9E9E;
+        background-color: #ffffff;
         border-radius: 5px;
         color:rgb(5, 5, 5);
         box-shadow: 3px 3px 3px 3px;
@@ -24,11 +27,25 @@
             width: 100px;
             height: 100px;
             display: flex;
+            margin-bottom: 20px;
             }
     }
-
-
 }
+
+    @media screen and (max-width: 818px) {
+        .contenido .contenedor-2{
+             grid-template-columns: repeat(2, 1fr);
+             place-items: center;
+         }
+     }
+
+     @media screen and (max-width: 552px) {
+        .contenido .contenedor-2{
+             grid-template-columns: repeat(1, 1fr);
+             place-items: center;
+         }
+     }
+
 /*PRODUCTOS*/
 
 

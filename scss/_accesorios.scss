@@ -12,32 +12,35 @@
             border: solid 3px;
             width: 234px;
             height: 330px;
-            padding: 23px 7px;
+            padding: 14px 1px;
             margin: 20px;
             margin-bottom: 70px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: gray;
+            background-color: white;
             border-radius: 5px;
             color: rgb(5, 5, 5);
             box-shadow: 3px 3px 3px 3px;
             box-sizing: border-box;
 
             .card__images {
-                width: 100px;
-                height: 100px;
+                width: 150px;
+                height: 150px;
                 align-items: center;
+                margin-bottom: 10px;
             }
 
+
             .precio {
-                color: white;
+                color: rgb(8, 8, 8);
+                margin-top: 12px;
             }
 
             .boton {
                 font-size: 15px;
-                color: rgb(5, 5, 5);
-                background-color: rgb(255, 255, 255);
+                color: rgb(212, 212, 212);
+                background-color: rgb(8, 8, 8);
                 padding: 5px;
                 border-radius: 5px;
                 text-align: center;
@@ -48,36 +51,27 @@
 
 /*FIN DE ESPECIFICACIONES DE PRODUCTOS*/
 
-
-
-
-@media screen and (max-width: 930px) {
-    .contenedor-accesorios {
+@media screen and (max-width: 826px) {
+    .contenido .contenedor-accesorios{
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
+        place-items: center;
     }
 }
 
-@media screen and (max-width: 628px) {
-    .contenedor-accesorios {
+@media screen and (max-width: 550px) {
+   .contenido .contenedor-accesorios {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-@media screen and (max-width: 465px) {
-    .contenedor-accesorios {
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
     }
 }
 
 .boton:hover {
-    background-color: rgb(2, 2, 2);
-    color: rgb(5, 5, 5);
+    background-color: rgb(241, 37, 37);
+    color: rgb(17, 20, 209);
 }
 
 /* FIN ACCESORIOS*/
