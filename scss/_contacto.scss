@@ -9,7 +9,7 @@
   height: 531px;
   background-color: grey;
   margin: auto;
-  color: rgb(247, 241, 241);
+  color:$color-primario;
   label{
     margin-bottom: 10px;
 }
@@ -32,6 +32,7 @@ input{
     background-color:rgb(245, 241, 12);
     margin-top: 20px;
     cursor: pointer;
+    
   }
 }
 }

@@ -1,11 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   @include reseteo-margenes;
 }
 
-a {
-    text-decoration: none;
+a{ 
+    @include para-mis-a;
 }
 
 /* TODO MI INDEX*/
@@ -62,12 +60,12 @@ body {
 
     .titulos-principales {
         margin-top: 30px;
-        color: rgb(255, 255, 255);
+        color: $color-primario;
     }
 
     .titulo-oferta {
         margin-top: 40px;
-        color: rgb(255, 255, 255);
+        color:$color-primario;
     }
 
     .video iframe {
@@ -117,7 +115,7 @@ body {
 .footer {
     background-color: rgb(8, 8, 8);
     text-align: center;
-    color: blanchedalmond;
+    color:$color-primario;
     margin: 0;
     height: 122px;
 

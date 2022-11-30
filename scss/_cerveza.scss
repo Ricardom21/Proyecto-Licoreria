@@ -1,7 +1,7 @@
 /* CARDS PRODUCTOS VENTAS*/
 .contenido {
     .title-principal {
-        color: rgb(253, 251, 251);
+        color: $color-primario;
         text-align: center;
         padding: 40px;
         text-transform: uppercase;
@@ -16,31 +16,17 @@
 
 
         .cards-productos2 {
-            border: solid 3px;
-            width: 235px;
-            height: 318px;
-            padding: 15px 6px;
-            margin: 20px;
-            margin-bottom: 70px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: rgb(255, 255, 255);
-            border-radius: 5px;
-            color: rgb(3, 3, 3);
-            box-shadow: 3px 3px 3px 3px;
-            box-sizing: border-box;
+          @extend  %card-licores;
 
+            
             .card__images {
                 width: 120px;
                 height: 117px;
                 margin-bottom: 10px;
             }
-.button{
-    background-color: black;
-    color: white;
-    border-radius: solid 1px;
-}
+            .button {
+                @extend %botones;
+            }
             p {
                 color: rgb(7, 7, 7);
                 text-align: center;
