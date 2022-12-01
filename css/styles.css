@@ -52,14 +52,6 @@ body {
     flex-direction: column;
   }
 }
-.bg-dark {
-  background-color: black !important;
-}
-
-.nav-link {
-  color: white !important;
-}
-
 /* FIN DEL HEADER Y MENU*/
 /*INICIO DEL MAIN*/
 @media screen and (max-width: 587px) {
@@ -198,6 +190,10 @@ body {
   border-radius: 5px;
   text-align: center;
 }
+.contenido .contenedor-accesorios .card-accesorios .boton .boton:hover {
+  background-color: rgb(228, 36, 36);
+  color: rgb(124, 189, 20);
+}
 
 /*FIN DE ESPECIFICACIONES DE PRODUCTOS*/
 @media screen and (max-width: 826px) {
@@ -216,11 +212,6 @@ body {
     place-items: center;
   }
 }
-.boton:hover {
-  background-color: rgb(241, 37, 37);
-  color: rgb(17, 20, 209);
-}
-
 /* FIN ACCESORIOS*/
 /* CARDS PRODUCTOS VENTAS*/
 .contenido .title-principal {
@@ -305,6 +296,12 @@ body {
 }
 
 /* FIN FORMULARIO*/
+@media screen and (max-width: 420px) {
+  .contenido .form fieldset {
+    width: 300px;
+    height: 520px;
+  }
+}
 /* CARDS PRODUCTOS VENTAS*/
 .contenido .title-principal {
   color: white;

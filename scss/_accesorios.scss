@@ -44,6 +44,11 @@
                 padding: 5px;
                 border-radius: 5px;
                 text-align: center;
+
+                & .boton:hover {
+                    background-color: rgb(228, 36, 36);
+                    color: rgb(124, 189, 20);
+                }
             }
         }
     }
@@ -69,9 +74,5 @@
     }
 }
 
-.boton:hover {
-    background-color: rgb(241, 37, 37);
-    color: rgb(17, 20, 209);
-}
 
 /* FIN ACCESORIOS*/

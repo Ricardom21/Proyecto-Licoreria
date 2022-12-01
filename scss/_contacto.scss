@@ -43,3 +43,10 @@ input{
   }
 
 /* FIN FORMULARIO*/
+
+@media screen and (max-width: 420px) {
+.contenido .form fieldset{
+  width: 300px;
+  height: 520px;
+  }
+}
