@@ -113,7 +113,7 @@ body {
     border-radius: 50%;
     bottom: 126px;
     right: 25px;
-    padding: 10px;
+    padding: 5px;
     transition: ease 0.3s;
     animation: efecto 1.2s infinite;
 
@@ -125,7 +125,7 @@ body {
     }
 
     .boton {
-        width: 50px;
+        width: 30px;
         transition: ease 1s;
     }
 
@@ -140,7 +140,7 @@ body {
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 552px) {
     .container-boton{
         bottom: 158px;
         right: 7px;
