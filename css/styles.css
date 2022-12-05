@@ -53,6 +53,10 @@ body {
   }
 }
 /*NAVBAR DE BOOTSTRAP*/
+.navbar {
+  background-color: black;
+}
+
 .nav-link {
   color: white;
 }
@@ -221,15 +225,15 @@ body {
 }
 .contenido .contenedor-accesorios .card-accesorios .boton {
   font-size: 15px;
-  color: rgb(212, 212, 212);
+  color: rgb(255, 255, 255);
   background-color: rgb(8, 8, 8);
   padding: 5px;
   border-radius: 5px;
   text-align: center;
 }
-.contenido .contenedor-accesorios .card-accesorios .boton .boton:hover {
-  background-color: rgb(228, 36, 36);
-  color: rgb(124, 189, 20);
+.contenido .contenedor-accesorios .card-accesorios .boton:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 /*FIN DE ESPECIFICACIONES DE PRODUCTOS*/
@@ -659,9 +663,10 @@ body {
 .contenido .title-principal {
   color: white;
   text-align: center;
-  padding: 40px;
+  padding: 10px;
   text-transform: uppercase;
   margin: 20px;
+  border-bottom: 1px solid white;
 }
 .contenido .contenedor-9 {
   display: grid;

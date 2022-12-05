@@ -39,15 +39,15 @@
 
             .boton {
                 font-size: 15px;
-                color: rgb(212, 212, 212);
+                color: rgb(255, 255, 255);
                 background-color: rgb(8, 8, 8);
                 padding: 5px;
                 border-radius: 5px;
                 text-align: center;
 
-                & .boton:hover {
-                    background-color: rgb(228, 36, 36);
-                    color: rgb(124, 189, 20);
+                &:hover {
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(0, 0, 0);
                 }
             }
         }
