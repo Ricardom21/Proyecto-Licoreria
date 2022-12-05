@@ -1,13 +1,6 @@
 /* CARDS PRODUCTOS VENTAS*/
 .contenido {
-    .title-principal {
-        color: $color-primario;
-        text-align: center;
-        padding: 40px;
-        text-transform: uppercase;
-        margin: 20px;
-    }
-
+  
     .contenedor-3 {
         display: grid;
         grid-template-rows: 1fr;
@@ -26,6 +19,8 @@
             }
             .button {
                 @extend %botones;
+
+
             }
             p {
                 color: rgb(7, 7, 7);

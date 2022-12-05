@@ -1,12 +1,7 @@
 .contenido {
 
-    .title-principal{
-        color: $color-primario;
-        text-align: center;
-        padding: 10px;
-        text-transform: uppercase;
-        margin: 20px;
-        border-bottom: 1px solid $color-primario;
+    .title {
+        @include title;
     }
 
     .contenedor-9 {
@@ -16,7 +11,7 @@
         place-items: center;
 
         .cards-productos2 {
-            @extend  %card-licores;
+            @extend %card-licores;
 
             .card__images {
                 width: 120px;
@@ -38,7 +33,7 @@
 }
 
 @media screen and (max-width: 826px) {
-    .contenido .contenedor-9{
+    .contenido .contenedor-9 {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
@@ -47,7 +42,7 @@
 }
 
 @media screen and (max-width: 550px) {
-   .contenido .contenedor-9 {
+    .contenido .contenedor-9 {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(1, 1fr);

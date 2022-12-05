@@ -3,10 +3,11 @@ $color-primario: white;
 
 /*EXTEND*/
 %botones{
-    background-color: black;
-    color: white;
+    background-color: rgb(10, 10, 10);
+    color: $color-primario;
     border-radius: solid 1px;
-
+    padding: 10px;
+ 
 }
 
 %card-licores{
