@@ -1,9 +1,15 @@
 /*EXTEND*/
-.contenido .contenedor-14 .cards-productos2 .button, .contenido .contenedor-13 .cards-productos2 .button, .contenido .contenedor-12 .cards-productos2 .button, .contenido .contenedor-11 .cards-productos2 .button, .contenido .contenedor-10 .cards-productos2 .button, .contenido .contenedor-9 .cards-productos2 .button, .contenido .contenedor-8 .cards-productos2 .button, .contenido .contenedor-7 .cards-productos2 .button, .contenido .contenedor-6 .cards-productos2 .button, .contenido .contenedor-5 .cards-productos2 .button, .contenido .contenedor-4 .cards-productos2 .button, .contenido .contenedor-3 .cards-productos2 .button {
-  background-color: rgb(10, 10, 10);
-  color: white;
-  border-radius: solid 1px;
-  padding: 10px;
+.contenido .contenedor-14 .cards-productos2 button, .contenido .contenedor-13 .cards-productos2 button, .contenido .contenedor-12 .cards-productos2 button, .contenido .contenedor-11 .cards-productos2 button, .contenido .contenedor-10 .cards-productos2 button, .contenido .contenedor-9 .cards-productos2 button, .contenido .contenedor-8 .cards-productos2 button, .contenido .contenedor-7 .cards-productos2 button, .contenido .contenedor-6 .cards-productos2 button, .contenido .contenedor-5 .cards-productos2 button, .contenido .contenedor-4 .cards-productos2 button, .contenido .contenedor-3 .cards-productos2 button, .contenido .contenedor-accesorios .card-accesorios button {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 8, 8);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+.contenido .contenedor-14 .cards-productos2 button:hover, .contenido .contenedor-13 .cards-productos2 button:hover, .contenido .contenedor-12 .cards-productos2 button:hover, .contenido .contenedor-11 .cards-productos2 button:hover, .contenido .contenedor-10 .cards-productos2 button:hover, .contenido .contenedor-9 .cards-productos2 button:hover, .contenido .contenedor-8 .cards-productos2 button:hover, .contenido .contenedor-7 .cards-productos2 button:hover, .contenido .contenedor-6 .cards-productos2 button:hover, .contenido .contenedor-5 .cards-productos2 button:hover, .contenido .contenedor-4 .cards-productos2 button:hover, .contenido .contenedor-3 .cards-productos2 button:hover, .contenido .contenedor-accesorios .card-accesorios button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .contenido .contenedor-14 .cards-productos2, .contenido .contenedor-13 .cards-productos2, .contenido .contenedor-12 .cards-productos2, .contenido .contenedor-11 .cards-productos2, .contenido .contenedor-10 .cards-productos2, .contenido .contenedor-9 .cards-productos2, .contenido .contenedor-8 .cards-productos2, .contenido .contenedor-7 .cards-productos2, .contenido .contenedor-6 .cards-productos2, .contenido .contenedor-5 .cards-productos2, .contenido .contenedor-4 .cards-productos2, .contenido .contenedor-3 .cards-productos2 {
@@ -225,19 +231,6 @@ body {
   color: rgb(8, 8, 8);
   margin-top: 12px;
 }
-.contenido .contenedor-accesorios .card-accesorios .boton {
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(8, 8, 8);
-  padding: 5px;
-  border-radius: 5px;
-  text-align: center;
-}
-.contenido .contenedor-accesorios .card-accesorios .boton:hover {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-}
-
 /*FIN DE ESPECIFICACIONES DE PRODUCTOS*/
 @media screen and (max-width: 826px) {
   .contenido .contenedor-accesorios {
@@ -580,7 +573,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 5px;
   color: rgb(5, 5, 5);
   box-shadow: 3px 3px 3px 3px;
@@ -626,7 +619,7 @@ body {
 .contenido .contenedor-9 .cards-productos2 .card__images {
   width: 120px;
   height: 117px;
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 }
 .contenido .contenedor-9 .cards-productos2 p {
   color: rgb(7, 7, 7);

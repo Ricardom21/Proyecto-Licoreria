@@ -37,18 +37,9 @@
                 margin-top: 12px;
             }
 
-            .boton {
-                font-size: 15px;
-                color: rgb(255, 255, 255);
-                background-color: rgb(8, 8, 8);
-                padding: 5px;
-                border-radius: 5px;
-                text-align: center;
+            button {
+                @extend %botones;
 
-                &:hover {
-                    background-color: rgb(255, 255, 255);
-                    color: rgb(0, 0, 0);
-                }
             }
         }
     }

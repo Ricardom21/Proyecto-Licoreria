@@ -19,8 +19,9 @@
                 margin-bottom: 11px;
             }
 
-            .button {
+            button {
                 @extend %botones;
+
             }
 
             p {

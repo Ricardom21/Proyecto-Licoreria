@@ -3,10 +3,17 @@ $color-primario: white;
 
 /*EXTEND*/
 %botones{
-    background-color: rgb(10, 10, 10);
-    color: $color-primario;
-    border-radius: solid 1px;
-    padding: 10px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 8, 8);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+
+    &:hover{
+        background-color: rgb(255, 255, 255);
+                    color: rgb(0, 0, 0);
+    }
  
 }
 
