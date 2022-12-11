@@ -26,7 +26,12 @@
             display: flex;
             margin-bottom: 20px;
             }
+
+            &:hover{
+                background-color: #616161;
+            }
     }
+
 }
 
     @media screen and (max-width: 818px) {
@@ -48,6 +53,4 @@
 
 
 
-.card:hover{
-    background-color: #616161;
-}
+

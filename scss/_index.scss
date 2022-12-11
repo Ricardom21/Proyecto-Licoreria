@@ -86,17 +86,26 @@ body {
     /* ID DE LOS CARRUSEL */
 
     #carouselExampleIndicators {
-        width: 60%;
-        height: 60%;
-        margin: 0 auto;
+        width: 87%;
+        height: 488px;
+       margin: 0 auto;
         border: solid 5px white;
     }
 
     #carouselExampleControls {
-        width: 60%;
-        height: 60%;
-        margin: 0 auto;
+        width: 87%;
+        height: 488px;
+      margin: 0 auto;
         border: solid 5px white;
+    }
+    .carousel-item{
+        height:478px;
+        width: 87%;
+    }
+    .carousel-item img{
+        width: 115%;
+        height: 478px;
+        object-fit: cover;
     }
 }
 
@@ -116,7 +125,7 @@ body {
     position: fixed;
     z-index: 999;
     border-radius: 50%;
-    bottom: 126px;
+    bottom: 148px;
     right: 25px;
     padding: 5px;
     transition: ease 0.3s;
@@ -157,13 +166,19 @@ body {
     text-align: center;
     color:$color-primario;
     margin: 0;
-    height: 122px;
+    height: 139px;
+
+    h4{
+        line-height: 1.8;
+    }
+
 
     .re-des {
         list-style: none;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        margin-top: 12px;
 
         .imagen-redes {
             width: 35px;
@@ -173,15 +188,16 @@ body {
 
     .copy {
         text-align: center;
-        margin-top: 14px;
+        margin-top: 25px;
     }
 }
 
-@media screen and (max-width: 536px) {
+@media screen and (max-width: 544px) {
     .footer {
-        height: 200px;
+        height: 162px;
     }
 }
+
 
 @media screen and (max-width: 536px) {
     .copy {
@@ -192,6 +208,11 @@ body {
     }
 }
 
+@media screen and (max-width: 440px) {
+    .footer {
+        height: 200px;
+    }
+}
 /*TERMINA EL FOOTER*/
 
 /* FIN DE INDEX*/
