@@ -1,21 +1,21 @@
 $bg-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("../img/fondoimportante.webp");
-$color-primario: white;
-$color-secundario: black;
-$color-terciario: grey;
+$color-primario: #FFFFFF;
+$color-secundario: #000000;
+$color-terciario:#757575;
 
 
 /*EXTEND*/
 %botones{
     font-size: 15px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(8, 8, 8);
+    color: $color-primario;
+    background-color: $color-secundario;
     padding: 5px;
     border-radius: 5px;
     text-align: center;
 
     &:hover{
-        background-color: rgb(255, 255, 255);
-                    color: rgb(0, 0, 0);
+        background-color: $color-primario;
+                    color:$color-secundario;
     }
  
 }
@@ -30,9 +30,9 @@ $color-terciario: grey;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: $color-primario;
     border-radius: 5px;
-    color: rgb(3, 3, 3);
+    color: $color-secundario;
     box-shadow: 3px 3px 3px 3px;
     box-sizing: border-box;
 }

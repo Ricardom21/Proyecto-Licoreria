@@ -17,7 +17,7 @@
         align-items: center;
         background-color: $color-primario;
         border-radius: 5px;
-        color:rgb(5, 5, 5);
+        color:$color-secundario;
         box-shadow: 3px 3px 3px 3px;
 
         .card__image{
@@ -28,7 +28,7 @@
             }
 
             &:hover{
-                background-color: #616161;
+                background-color: $color-terciario;
             }
     }
 

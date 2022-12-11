@@ -4,10 +4,10 @@
     margin-bottom: 100px;
 }
 .form fieldset{
-  border: solid 2px rgb(7, 7, 7);
+  border: solid 2px $color-secundario;
   width: 400px;
   height: 531px;
-  background-color: grey;
+  background-color: $color-terciario;
   margin: auto;
   color:$color-primario;
   label{
@@ -21,21 +21,21 @@ input{
     width: 90%;
     border-radius: 10px;
     padding-left: 15px ;
-    color: rgb(0, 0, 0);
+    color: $color-terciario;
     text-transform: uppercase;
   }
 
   .boton-form{
     padding: 10px;
     width: 95%;
-    color: rgb(255, 255, 255);
-    background-color:rgb(2, 2, 2);
+    color: $color-primario;
+    background-color: $color-secundario;
     margin-top: 20px;
     cursor: pointer;
     
 &:hover{
-  color: black;
-  background-color: white;
+  color: $color-secundario;
+  background-color: $color-primario;
 }
   
   }
