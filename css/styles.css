@@ -88,7 +88,6 @@ body {
 /*  Secciones*/
 .contenido {
   text-align: center;
-  /* ID DE LOS CARRUSEL */
 }
 .contenido .titulos-principales {
   margin-top: 30px;
@@ -102,25 +101,25 @@ body {
 .contenido .video iframe {
   margin-bottom: 40px;
 }
-.contenido #carouselExampleIndicators {
-  width: 87%;
-  height: 488px;
+
+/* ID DE LOS CARRUSEL */
+#carouselExampleIndicators {
+  width: 90%;
   margin: 0 auto;
-  border: solid 5px white;
+  border: solid 5px #FFFFFF;
 }
-.contenido #carouselExampleControls {
-  width: 87%;
-  height: 488px;
+
+.carousel-item img {
+  width: 100%;
+}
+
+#carouselExampleControls {
+  width: 90%;
   margin: 0 auto;
-  border: solid 5px white;
+  border: solid 5px #FFFFFF;
 }
-.contenido .carousel-item {
-  height: 478px;
-  width: 87%;
-}
-.contenido .carousel-item img {
-  width: 115%;
-  height: 478px;
+#carouselExampleControls .carousel-item img {
+  width: 100%;
 }
 
 @media screen and (max-width: 579px) {
