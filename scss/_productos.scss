@@ -34,14 +34,14 @@
 
 }
 
-    @media screen and (max-width: 818px) {
+    @media screen and (max-width: 923px) {
         .contenido .contenedor-2{
              grid-template-columns: repeat(2, 1fr);
              place-items: center;
          }
      }
 
-     @media screen and (max-width: 552px) {
+     @media screen and (max-width: 622px) {
         .contenido .contenedor-2{
              grid-template-columns: repeat(1, 1fr);
              place-items: center;
